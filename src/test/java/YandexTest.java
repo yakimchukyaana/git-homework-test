@@ -7,6 +7,6 @@ import static com.codeborne.selenide.Selenide.$;
 public class YandexTest {
     @Test
     void yandexTest() {
-
+        Selenide.open("https://yandex.ru");
     }
 }
